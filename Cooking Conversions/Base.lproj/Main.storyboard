@@ -24,7 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0Z-yx-WaD">
                                 <rect key="frame" x="119" y="282" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Metric to US"/>
+                                <state key="normal" title="US Conversions"/>
                                 <connections>
                                     <segue destination="VfB-LN-7m4" kind="show" id="Clj-SS-khi"/>
                                 </connections>
@@ -52,10 +52,10 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="FMh-hZ-lG5">
             <objects>
-                <viewController id="VfB-LN-7m4" sceneMemberID="viewController">
+                <viewController id="VfB-LN-7m4" customClass="thirdViewController" customModule="Cooking_Conversions" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="dBv-mB-Gk3"/>
                         <viewControllerLayoutGuide type="bottom" id="Mr1-NC-IN6"/>
