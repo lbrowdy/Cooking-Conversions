@@ -14,6 +14,8 @@
 		F35EDCF31F06BB0D00C0D232 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F35EDCF11F06BB0D00C0D232 /* LaunchScreen.storyboard */; };
 		F35EDCFE1F06BB0E00C0D232 /* Cooking_ConversionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDCFD1F06BB0E00C0D232 /* Cooking_ConversionsTests.swift */; };
 		F35EDD091F06BB0E00C0D232 /* Cooking_ConversionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD081F06BB0E00C0D232 /* Cooking_ConversionsUITests.swift */; };
+		F35EDD191F06BF5000C0D232 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD181F06BF5000C0D232 /* secondViewController.swift */; };
+		F35EDD1B1F06BFAB00C0D232 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD1A1F06BFAB00C0D232 /* Measurements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		F35EDD041F06BB0E00C0D232 /* Cooking ConversionsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Cooking ConversionsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35EDD081F06BB0E00C0D232 /* Cooking_ConversionsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cooking_ConversionsUITests.swift; sourceTree = "<group>"; };
 		F35EDD0A1F06BB0E00C0D232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F35EDD181F06BF5000C0D232 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
+		F35EDD1A1F06BFAB00C0D232 /* Measurements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,7 +103,9 @@
 			children = (
 				F35EDCE81F06BB0D00C0D232 /* AppDelegate.swift */,
 				F35EDCEA1F06BB0D00C0D232 /* ViewController.swift */,
+				F35EDD1A1F06BFAB00C0D232 /* Measurements.swift */,
 				F35EDCEC1F06BB0D00C0D232 /* Main.storyboard */,
+				F35EDD181F06BF5000C0D232 /* secondViewController.swift */,
 				F35EDCEF1F06BB0D00C0D232 /* Assets.xcassets */,
 				F35EDCF11F06BB0D00C0D232 /* LaunchScreen.storyboard */,
 				F35EDCF41F06BB0D00C0D232 /* Info.plist */,
@@ -260,6 +266,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F35EDCEB1F06BB0D00C0D232 /* ViewController.swift in Sources */,
+				F35EDD191F06BF5000C0D232 /* secondViewController.swift in Sources */,
+				F35EDD1B1F06BFAB00C0D232 /* Measurements.swift in Sources */,
 				F35EDCE91F06BB0D00C0D232 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
