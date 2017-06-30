@@ -27,12 +27,13 @@ var finalTeaspoonsMetric = 0.0
         if (enteredTablespoons.text?.characters.count)! >= 1 {
         finalTeaspoonsMetric = Double(enteredTeaspoons.text!)! * 5.0
        finalTablespoonsMetric = Double(enteredTablespoons.text!)! * 15.0
+            
     }
     }
 
     @IBAction func onCalculateTapped(_ sender: Any) {
         convert()
-        TeaspoonsMLTextField.text! = "Millimeters:" + String(finalTeaspoonsMetric)
+        TeaspoonsMLTextField.text! = "Millileters:" + String(finalTeaspoonsMetric)
         //maybe switch order so it says #ml
     }
 
