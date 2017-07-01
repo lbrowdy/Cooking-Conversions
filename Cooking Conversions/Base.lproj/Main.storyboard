@@ -24,7 +24,7 @@
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g0Z-yx-WaD">
                                 <rect key="frame" x="119" y="282" width="111" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Metric to US"/>
+                                <state key="normal" title="US Conversions"/>
                                 <connections>
                                     <segue destination="VfB-LN-7m4" kind="show" id="Clj-SS-khi"/>
                                 </connections>

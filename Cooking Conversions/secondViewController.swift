@@ -21,24 +21,29 @@ var finalTeaspoonsMetric = 0.0
     override func viewDidLoad() {
         super.viewDidLoad()
     }
+    func convertTablespoons (){
+        if (enteredTablespoons.text?.characters.count)! >= 1 {
+            finalTablespoonsMetric = Double(enteredTablespoons.text!)! * 15
+        }
+    }
 
     
-    func convert() {
-        if (enteredTablespoons.text?.characters.count)! >= 1 {
+    func convertTeaspoons() {
+        if (enteredTeaspoons.text?.characters.count)! >= 1 {
         finalTeaspoonsMetric = Double(enteredTeaspoons.text!)! * 5.0
-       finalTablespoonsMetric = Double(enteredTablespoons.text!)! * 15.0
+      // finalTablespoonsMetric = Double(enteredTablespoons.text!)! * 15.0
             
     }
     }
 
     @IBAction func onCalculateTapped(_ sender: Any) {
-        convert()
-        TeaspoonsMLTextField.text! = "Millileters:" + String(finalTeaspoonsMetric)
+        convertTeaspoons()
+        TeaspoonsMLTextField.text! =  String(finalTeaspoonsMetric) + " ml"
         //maybe switch order so it says #ml
     }
 
     @IBAction func onTablespoonsCalculateTapped(_ sender: Any) {
-        convert()
+        convertTablespoons()
         TablespoonsMLTextField.text! = String(finalTablespoonsMetric) + " ml"
     }
     
