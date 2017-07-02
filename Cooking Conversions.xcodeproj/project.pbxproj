@@ -16,6 +16,7 @@
 		F35EDD091F06BB0E00C0D232 /* Cooking_ConversionsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD081F06BB0E00C0D232 /* Cooking_ConversionsUITests.swift */; };
 		F35EDD191F06BF5000C0D232 /* secondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD181F06BF5000C0D232 /* secondViewController.swift */; };
 		F35EDD1B1F06BFAB00C0D232 /* Measurements.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD1A1F06BFAB00C0D232 /* Measurements.swift */; };
+		F35EDD5B1F08207800C0D232 /* thirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35EDD5A1F08207800C0D232 /* thirdViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		F35EDD0A1F06BB0E00C0D232 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F35EDD181F06BF5000C0D232 /* secondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = secondViewController.swift; sourceTree = "<group>"; };
 		F35EDD1A1F06BFAB00C0D232 /* Measurements.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Measurements.swift; sourceTree = "<group>"; };
+		F35EDD5A1F08207800C0D232 /* thirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = thirdViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F35EDCEA1F06BB0D00C0D232 /* ViewController.swift */,
 				F35EDD1A1F06BFAB00C0D232 /* Measurements.swift */,
 				F35EDCEC1F06BB0D00C0D232 /* Main.storyboard */,
+				F35EDD5A1F08207800C0D232 /* thirdViewController.swift */,
 				F35EDD181F06BF5000C0D232 /* secondViewController.swift */,
 				F35EDCEF1F06BB0D00C0D232 /* Assets.xcassets */,
 				F35EDCF11F06BB0D00C0D232 /* LaunchScreen.storyboard */,
@@ -267,6 +270,7 @@
 			files = (
 				F35EDCEB1F06BB0D00C0D232 /* ViewController.swift in Sources */,
 				F35EDD191F06BF5000C0D232 /* secondViewController.swift in Sources */,
+				F35EDD5B1F08207800C0D232 /* thirdViewController.swift in Sources */,
 				F35EDD1B1F06BFAB00C0D232 /* Measurements.swift in Sources */,
 				F35EDCE91F06BB0D00C0D232 /* AppDelegate.swift in Sources */,
 			);
@@ -515,6 +519,7 @@
 				F35EDD0F1F06BB0E00C0D232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35EDD101F06BB0E00C0D232 /* Build configuration list for PBXNativeTarget "Cooking ConversionsTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +528,7 @@
 				F35EDD121F06BB0E00C0D232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F35EDD131F06BB0E00C0D232 /* Build configuration list for PBXNativeTarget "Cooking ConversionsUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +537,7 @@
 				F35EDD151F06BB0E00C0D232 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
