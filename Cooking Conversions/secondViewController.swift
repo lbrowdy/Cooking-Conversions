@@ -51,17 +51,20 @@ class secondViewController: UIViewController {
     func convertFluidOunces(){
         if(enteredFluidOunces.text?.characters.count)! >= 1{
             finalFluidOuncesMetric = Double(enteredFluidOunces.text!)! * 30
+            finalFluidOuncesMetric = round(finalFluidOuncesMetric*100)/100
         }
         
     }
     func convertTablespoons (){
         if (enteredTablespoons.text?.characters.count)! >= 1 {
             finalTablespoonsMetric = Double(enteredTablespoons.text!)! * 15
+            finalTablespoonsMetric = round(finalTablespoonsMetric*100)/100
         }
     }
     func convertOunces(){
         if(enteredOunces.text?.characters.count)! >= 1{
             finalOuncesMetric = Double(enteredOunces.text!)! * 28
+            finalOuncesMetric = round(finalOuncesMetric*100)/100
         }
         
     }
@@ -70,6 +73,7 @@ class secondViewController: UIViewController {
     func convertTeaspoons() {
         if (enteredTeaspoons.text?.characters.count)! >= 1 {
             finalTeaspoonsMetric = Double(enteredTeaspoons.text!)! * 5.0
+            finalTeaspoonsMetric = round(finalTeaspoonsMetric*100)/100
 
         }
         
@@ -77,27 +81,32 @@ class secondViewController: UIViewController {
     func convertCups(){
         if(enteredCups.text?.characters.count)! >= 1{
             finalCupsMetric = Double(enteredCups.text!)! * 240.0
+            finalCupsMetric = round(finalCupsMetric*100)/100
         }
         
     }
     func convertPints(){
         if(enteredPints.text?.characters.count)! >= 1{
             finalPintsMetric = Double(enteredPints.text!)! * 273.0
+            finalPintsMetric = round(finalPintsMetric*100)/100
         }
     }
     func convertQuarts(){
         if(enteredQuarts.text?.characters.count)! >= 1{
             finalQuartsMetric = Double(enteredQuarts.text!)! * 0.95
+            finalQuartsMetric = round(finalQuartsMetric*100)/100
         }
     }
     func convertGallons(){
         if(enteredGallons.text?.characters.count)! >= 1{
             finalGallonsMetric = Double(enteredGallons.text!)! * 3.8
+            finalGallonsMetric = round(finalGallonsMetric*100)/100
         }
     }
     func convertPounds(){
         if(enteredPounds.text?.characters.count)! >= 1 {
             finalPoundsMetric = Double(enteredPounds.text!)! * 454
+            finalPoundsMetric = round(finalPoundsMetric*100)/100
         }
     }
     
