@@ -9,7 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var measurements = Measurements()
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
